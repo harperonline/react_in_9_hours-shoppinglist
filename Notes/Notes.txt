@@ -1,0 +1,13 @@
+//JS expressions in JSX
+
+{var} = references a variable on load
+
+{()=>{function()}} = references an arrow function when on an event
+
+{function()} = invokes a function on load
+
+       <h1>
+              {handleCheck()} //Invokes the function on load
+              {Chris} //Load the variable value on load
+              <label onClick={() => handleCheck(item.id)}>{item.desc}</label>
+        </h1>
